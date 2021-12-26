@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* Header section */
+
+.header {
+    color: white;
+    width: 100%;
+    padding: 15px;
+    /* to make children in single row */
+    display: flex;
+    /* to vertical align */
+    align-items: center;
+    /* to horizontal align */
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.authentication {
+    display: flex;
+}
+
+.cta-btn {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+/* Header section */
+
+
+/* Page Banner Section */
+
+.page-banner {
+    height: 60vh;
+    width: 100%;
+    background: url('./images/banner.avif');
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-name {
+    font-size: 46px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.page-banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-caption {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+
+/* Page Banner Section */
+
+
+/* app category */
+
+.app-categories {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.app-catogory {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+    width: 22%;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.app-catogory:hover {
+    transform: scale(1.1);
+}
+
+.category-img {
+    width: 100%;
+    height: 150px;
+}
+
+.category-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category-title {
+    padding: 18px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* app category */
